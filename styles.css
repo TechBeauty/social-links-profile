@@ -45,7 +45,6 @@ body {
 
 .card h2 {
     color: hsl(75, 94%, 57%);
-    font-weight: 700;
     font-size: 14px;
     margin-bottom: 20px;
     text-align: center;
@@ -69,13 +68,12 @@ body {
 .buttons a {
     text-decoration: none;
     background-color: hsl(0, 0%, 20%);
-    color: hsl(0, 0%, 100%);
+    color: white;
     font-size: 14px;
     border: 1px solid hsl(0, 0%, 20%);
     border-radius: 5px;
     padding-block: 10px;
     padding-inline: 85px;
-    transition: background-color 0.3s ease, color 0.3s ease, font-weight 0.3s ease;
 }
 
 .buttons a:hover {
