@@ -33,7 +33,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [Add solution URL here]([https://your-solution-url.com](https://techbeauty.github.io/social-links-profile/))
 
 ## My process
 
@@ -47,7 +47,7 @@ I examined the image supplied by Frontend Mentor and applied my discernment in c
 
 ### What I learned
 
-I discovered that inline styling is useful for swiftly altering the design of a word or sentence, while employing Cascading Style Sheets is particularly beneficial for styling divs or sections within the HTML framework.
+I discovered that inline styling is useful for swiftly altering the design of a word or sentence while employing Cascading Style Sheets is particularly beneficial for styling divs or sections within the HTML framework.
 
 Check out some of the code snippets below:
 
