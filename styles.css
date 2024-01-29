@@ -1,3 +1,9 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
     /* background: url("./assets/images/background.png") no-repeat center center; */
     background-color: hsl(0, 0%, 8%);
@@ -6,91 +12,77 @@ body {
     
 }
 
-img {
-    border-radius: 50%;
-    margin: auto;
-    margin-top: 30px;
-    width: 150px;
-    padding: 20px;
-}
 
-.intro {
-    margin: 0, auto;
-    position: absolute;
-    margin-bottom: 90px;
-    
-}
-
-h2 {
-    text-align: center;
-    font-weight: bold;
-}
-
-
-p {
-    font-size: 14px;
-    text-align: center;
-    margin-bottom: 20px;
-}
-
-.container1 {
-    display: flex;
-    justify-content: center;
-    align-items: center; 
-    background-color: hsl(0, 0%, 12%);
-    border-radius: 12px;
-    height: 650px;
-    width: 400px;
-    margin: auto;
-    margin-top: 100px;
-   
-}
-
-.container2 {
-    height: 200px;
-    margin: auto;
-    position: absolute;
-    z-index: 1;
-}
-
-.container3 {
-     display: grid;
-    grid-template-columns: repeat(1, 1fr);
-    gap: 15px;
-    margin-block: 20px;
-    height: 200px;
-    margin: auto;
-    position: absolute;
-    top: 50%;
+.container {
     display: flex;
     justify-content: center;
     align-items: center;
-    bottom: 28%;
-
+    height: 800px;
+   
 }
 
-button {
-    background-color: hsl(0, 0%, 20%);
-    color: white;
-    border-radius: 10px;;
-    width: 300px;
-    border: none;
-    padding: 15px 32px;
-    margin: 4px 2px;
-    
+.card {
+    background-color: hsl(0, 0%, 12%);
+    border-radius: 8px;
+    padding-top: 20px;
+    padding-bottom: 15px;
+    padding-inline: 30px;
 }
 
-button:hover {
-    background-color:hsl(75, 94%, 57%);
-    color: hsl(0, 0%, 12%);
-    cursor: pointer;
-    
+.card img {
+    max-width: 120px;
+    border-radius: 50%;
+    margin-block: 20px;
+    margin-left: 30%;
 }
 
-a {
+.card h1 {
+    font-weight: 700;
+    font-size: 20px;
+    margin-bottom: 8px;
+    text-align: center;
+}
+
+.card h2 {
+    color: hsl(75, 94%, 57%);
+    font-weight: 700;
+    font-size: 14px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.card p {
+    font-size: 12px;
+    font-weight: 400;
+    text-align: center;
+    letter-spacing: 1.5px;
+}
+
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 15px;
+    margin-block: 20px;
+    text-align: center;
+}
+
+.buttons a {
     text-decoration: none;
-    
+    background-color: hsl(0, 0%, 20%);
+    color: hsl(0, 0%, 100%);
+    font-size: 14px;
+    border: 1px solid hsl(0, 0%, 20%);
+    border-radius: 5px;
+    padding-block: 10px;
+    padding-inline: 85px;
+    transition: background-color 0.3s ease, color 0.3s ease, font-weight 0.3s ease;
 }
+
+.buttons a:hover {
+    background-color: hsl(75, 94%, 57%);
+    color: hsl(0, 0%, 12%);
+}
+
 
 .attribution { 
     font-size: 11px; 
