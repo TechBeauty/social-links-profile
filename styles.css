@@ -54,6 +54,10 @@ p {
 }
 
 .container3 {
+     display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 15px;
+    margin-block: 20px;
     height: 200px;
     margin: auto;
     position: absolute;
