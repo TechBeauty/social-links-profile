@@ -10,7 +10,6 @@ This is a solution to the [Social links profile challenge on Frontend Mentor](ht
   - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
-  - [What I learned](#what-i-learned)
   - [Continued development](#continued-development)
   - [Useful resources](#useful-resources)
 - [Author](#author)
@@ -44,25 +43,6 @@ I examined the image supplied by Frontend Mentor and applied my discernment in c
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
-
-### What I learned
-
-I discovered that inline styling is useful for swiftly altering the design of a word or sentence while employing Cascading Style Sheets is particularly beneficial for styling divs or sections within the HTML framework.
-
-Check out some of the code snippets below:
-
-```html
-<h1>Some HTML code I'm proud of</h1>
-<p style="color: hsl(75, 94%, 57%)">Dallas, TX</p> 
-  <p style="letter-spacing: 2px;"><small>"Gun Violence Survivor and Speaker."</small></p>
-```
-```css
-.proud-of-this-css-hover-style {
-  background-color:hsl(75, 94%, 57%);
-    color: hsl(0, 0%, 12%);
-    cursor: pointer;
-}
-```
 
 
 ### Continued development
